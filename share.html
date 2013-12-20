@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+        <title>kandid - share</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/seed.js"></script> 
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/share.js"></script>         
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/app.css"/>
+</head>
+<body>
+<div id="fb-root"></div>
+        <div id="" class="container">
+                <section>
+                        <canvas id="pic-preview" class="img-responsive" width="600" height="600"></canvas>
+                </section>
+                <form id="form-horizontal">
+                        <div id="share-comment" class="form-group">
+                                <label for="kandid-comment" class="col-lg-3 control-label">comment</label>
+                                <textarea id="kandid-comment" class="form-control" rows="6" placeholder="comment"></textarea>
+                        </div>
+                        <div id="custommize-tag" class="form-group">
+                                <label for="tag-user">add your friends</label>
+                                <input type="search" id="tag-user" class="form-control" placeholder="who got kandid?"></input>
+                        </div>
+                        <div id="customize-location" class="form-group">
+                                <label for="user-location">location</label>
+                                <input type="search" id="user-location" class="form-control" placeholder="where'd you get kandid?"></input> 
+                        </div>
+                </form>
+                <button type="button" id="" class="btn btn-default" onclick="location.href='home.html';">done?</button>
+        </div>
+</body>
+</html>
