@@ -15,6 +15,6 @@ if (localStorage.getItem('lat')){
 
 var lng;
 if (localStorage.getItem('lng')){
-	lat = localStorage.getItem('lng');
+	lng = localStorage.getItem('lng');
 }
 

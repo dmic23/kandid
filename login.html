@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="//www.parsecdn.com/js/parse-1.2.16.min.js"></script>
         <script type="text/javascript" src="js/fb-login.js"></script>
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
         <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
@@ -12,13 +13,11 @@
 </head>
 <body>
 <div id="fb-root"></div>
-        <div id="login-img" class="container img-responsive">
-        <div class="bg-color">
-                <div class="login-container">        
+        <div class="login-container">  
+                <div id="login-img" class="container img-responsive">      
                         <h1 class="login-logo">kandid</h1>
-                        <button type="button" id="" class="btn btn-default btn-lg" onclick="FB.login();">login with facebook</button>
+                        <button type="button" id="" class="btn btn-default btn-lg" onclick="Parse.FacebookUtils.logIn();">login with facebook</button>
                 </div>
-        </div>
         </div>
 </body>
 </html>

@@ -1,0 +1,61 @@
+/*kandid - css */
+html, body { width: 100%; height: auto; }
+
+#login-img {
+	background:url(../img/login-bg2.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	width: 100%; height: 100%; 
+}
+
+html, body, .bg-color { 
+	background-color: rgba(72, 202, 89, .7); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%; height: 100%; 
+}
+
+.container { padding: 0 15px; }
+
+.login-container, h1 { 
+	font-family: 'Poiret One';
+	font-size: 75px; 
+	color: white;  
+	margin: 0; 
+	position: fixed;
+	top: 20%;
+	left: 0;
+	right: 0;
+	height: 0;
+	text-align: center;
+}
+
+.login-container button {
+	font-size: 20px; 
+	color: rgb(72, 202, 89);
+	margin-top: 30%;
+	-webkit-box-shadow: 1px 1px 5px -3px rgba(33,33,33,1);
+	-moz-box-shadow: 1px 1px 5px -3px rgba(33,33,33,1);
+	box-shadow: 1px 1px 5px -3px rgba(33,33,33,1);
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 0;
+	text-align: center;
+}
+
+header, h1 { font-size: 40px; display: inline-block; }
+
+.nav-btns {  }
+
+canvas { width: 100%; height: auto; }
+
+
